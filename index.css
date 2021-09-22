@@ -1,0 +1,39 @@
+body {
+  
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+  padding: 0;
+  width: 100%;
+}
+
+ul li {
+  height: 44px;
+  list-style: none;
+}
+
+.caja-contenedor {
+  align-items: center;
+  background-color: #e9e9e9;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 300px;
+  justify-content: center;
+  padding: 8px;
+}
+
+.caja {
+  height: 300px;
+  width: 300px;
+  margin: 8px;
+}
+
+.rojo {
+  background-color: red;
+}
+
+.azul {
+  background-color: blue;
+}
